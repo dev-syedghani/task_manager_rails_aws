@@ -26,7 +26,7 @@ PGPASSWORD=__DB_PASSWORD__ psql -h __DB_ENDPOINT__ -U taskadmin -d postgres -c "
   ALTER ROLE task_manager CREATEDB;
 "
 
-git clone https://github.com/sghani001/task_manager_rails_aws.git /opt/task_manager
+git clone https://github.com/dev-syedghani/task_manager_rails_aws.git /opt/task_manager
 cd /opt/task_manager
 docker build -t task_manager .
 
